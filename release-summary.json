@@ -1,20 +1,26 @@
 {
-  "version": "2.28.2",
+  "version": "2.31.1",
   "changes": {
     "en-US": [
-      "Restore desktop PDF export from note menus.",
-      "Allow desktop sign-out when the instance is offline, and clarify the current instance and sign-in switching instructions.",
-      "Fix dark appearance in infographic galleries, canvases, and poster workspaces, improve editing control visibility, and unify solid button colors."
+      "Show a single Google Play update prompt on Android.",
+      "Identify oversized note bodies when an import exceeds the storage limit. Thanks to @sivdead in #871.",
+      "Keep the gallery toolbar open when clicking images in the editor.",
+      "Give the notebook list more space with a compact sidebar and a template shortcut in the new note menu.",
+      "Preserve local diagram and infographic edits when an earlier save finishes syncing."
     ],
     "zh-CN": [
-      "修复桌面端从笔记菜单导出 PDF 失败的问题。",
-      "修复实例离线时桌面端无法退出登录的问题，明确显示当前实例及切换登录方式。",
-      "修复信息图图库、画布和海报工作区的深色模式显示，改善编辑控件可见性并统一实心按钮配色。"
+      "Android 端只显示一次 Google Play 更新提示。",
+      "导入笔记正文超出存储上限时，明确提示失败原因。感谢 @sivdead 在 #871 中的贡献。",
+      "在编辑器中点击图库图片时，保持图库工具栏打开。",
+      "缩小笔记本侧栏顶部控件，为笔记本列表腾出更多空间，并可从新建笔记菜单使用模板。",
+      "较早的保存完成同步时，保留图表和信息图中尚未保存的本地编辑。"
     ],
     "ja": [
-      "デスクトップ版のノートメニューから PDF を書き出せない問題を修正しました。",
-      "インスタンスがオフラインでもデスクトップ版からサインアウトできるようにし、現在のインスタンスと接続先の切り替え手順を明確にしました。",
-      "インフォグラフィックのギャラリーとキャンバス、ポスター編集画面のダーク表示を修正し、編集操作を見つけやすくしてボタンの配色を統一しました。"
+      "Android で Google Play の更新確認を 1 回だけ表示します。",
+      "インポートするノートの本文がストレージの上限を超えた場合に、原因を表示します。",
+      "エディターでギャラリー内の画像をクリックしても、ツールバーを開いたままにします。",
+      "サイドバーをコンパクトにしてノートブック一覧を広げ、新規ノートのメニューからテンプレートを使えるようにしました。",
+      "以前の保存内容の同期が完了したときに、図やインフォグラフィックの編集中の変更を保持します。"
     ]
   }
 }
